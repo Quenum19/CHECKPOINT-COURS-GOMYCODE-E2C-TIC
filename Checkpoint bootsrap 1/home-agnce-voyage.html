@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R&Q Aventures</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Barre de navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.webp" alt="R&Q Aventures" style="height: 40px; width: auto;">
+            R&Q Aventures
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Destinations</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Circuits</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Section Héros -->
+<section class="hero-section d-flex justify-content-center align-items-center" style="background-image: url('images/destination.jpg'); height: 400px; background-size: cover;">
+    <div class="container text-center text-white">
+        <h1 class="display-4">Découvrez le Monde</h1>
+        <p class="lead">Explorez nos destinations et réservez vos voyages</p>
+        <a href="#destinations" class="btn btn-primary">Explorer</a>
+    </div>
+</section>
+
+
+<!-- Section Destinations -->
+<section id="destinations" class="container py-5">
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <img src="images/dest1.jpg" class="img-fluid" alt="Destination 1">
+            <h5>Destinations 1</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="images/dest2.jpg" class="img-fluid" alt="Destination 2">
+            <h5>Destinations 2</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="images/dest3.jpg" class="img-fluid" alt="Destination 3">
+            <h5>Destinations 3</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Section Voyages -->
+<section class="container py-3">
+    <div class="accordion" id="voyagesAccordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Safari à la réserve de la Comoé
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#voyagesAccordion">
+                <div class="accordion-body">
+                    <p>Partez à la découverte de la réserve de la Comoé, l'une des plus grandes zones protégées d'Afrique de l'Ouest, où vous pourrez observer des éléphants, des buffles, des lions et une grande variété d'oiseaux. Un voyage immersif dans la nature ivoirienne. <a href="#">Voir les détails</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Escapade à San Pedro et ses plages
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#voyagesAccordion">
+                <div class="accordion-body">
+                    <p>Découvrez la beauté des plages d'Abidjan à San Pedro. Profitez des plages dorées, des eaux turquoise et de l'atmosphère décontractée de cette région côtière. Idéal pour les amateurs de farniente et d'aventure en mer. <a href="#">Voir les détails</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Découverte de Yamoussoukro et de la basilique Notre-Dame de la Paix
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#voyagesAccordion">
+                <div class="accordion-body">
+                    <p>Visitez la capitale politique de la Côte d'Ivoire, Yamoussoukro, et explorez la célèbre basilique Notre-Dame de la Paix, l'une des plus grandes églises du monde. Un voyage culturel et spirituel au cœur du pays. <a href="#">Voir les détails</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Aventure au Parc National de Taï
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#voyagesAccordion">
+                <div class="accordion-body">
+                    <p>Explorez le parc national de Taï, classé au patrimoine mondial de l'UNESCO. Découvrez la biodiversité exceptionnelle de ce parc tropical, abritant des chimpanzés et d'autres espèces rares. Parfait pour les passionnés de nature. <a href="#">Voir les détails</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section Contact -->
+<section class="container py-5">
+    <h2 class="text-center mb-4">Contactez-nous</h2>
+    <form>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="name" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="name" placeholder="Votre nom">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="email" class="form-label">Adresse électronique</label>
+                <input type="email" class="form-control" id="email" placeholder="Votre adresse e-mail">
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="destination" class="form-label">Destination d'intérêt</label>
+            <input type="text" class="form-control" id="destination" placeholder="Destination que vous souhaitez visiter">
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Votre message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+    </form>
+</section>
+
+<!-- Pied de page -->
+<footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <p>&copy; 2024 R&Q Aventures. Tous droits réservés.</p>
+        <div>
+            <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
