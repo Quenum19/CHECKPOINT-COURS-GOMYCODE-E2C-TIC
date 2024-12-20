@@ -1,0 +1,23 @@
+Début
+    var longueur, nombreMots, nombreVoyelles, i : entier
+    var phrase : chaîne de caractères
+    
+    longueur = 0, nombreMots = 0, nombreVoyelles = 0
+    Lire(phrase) 
+
+    Pour i de 1 à longueur(phrase) - 1  
+        Si phrase[i] est un espace alors
+            nombreMots := nombreMots + 1 
+        Sinon Si phrase[i] est une voyelle (a, e, i, o, u, A, E, I, O, U) alors
+            nombreVoyelles := nombreVoyelles + 1
+        FinSi
+        longueur := longueur + 1
+    FinPour
+    
+    nombreMots := nombreMots + 1
+
+    // Afficher les résultats
+    Afficher("Longueur de la phrase : ", longueur)
+    Afficher("Nombre de mots : ", nombreMots)
+    Afficher("Nombre de voyelles : ", nombreVoyelles)
+Fin
