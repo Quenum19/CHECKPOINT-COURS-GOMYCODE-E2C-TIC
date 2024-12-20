@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-100 text-gray-900">
+
+  <!-- Section d'en-tête -->
+  <header class="bg-blue-900 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Mon Blog</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#" class="hover:text-yellow-400">Accueil</a></li>
+          <li><a href="#articles" class="hover:text-yellow-400">Articles</a></li>
+          <li><a href="#categories" class="hover:text-yellow-400">Catégories</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section des articles vedettes -->
+  <section class="py-12 bg-white" id="articles">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Articles Vedettes</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-gray-100 rounded shadow overflow-hidden">
+          <img src="images/boat-7636823_640.jpg" alt="Article 1" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Article 1</h3>
+            <p class="text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded shadow overflow-hidden">
+          <img src="images/marina-2711325_640.jpg" alt="Article 2" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Article 2</h3>
+            <p class="text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded shadow overflow-hidden">
+          <img src="images/speedboat-7082823_640.jpg" alt="Article 3" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Article 3</h3>
+            <p class="text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section des catégories -->
+  <section class="py-12 bg-gray-50" id="categories">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Catégories</h2>
+      <div class="flex flex-wrap justify-center gap-4">
+        <span class="bg-blue-900 text-white py-2 px-4 rounded-full">Technologie</span>
+        <span class="bg-blue-900 text-white py-2 px-4 rounded-full">Voyage</span>
+        <span class="bg-blue-900 text-white py-2 px-4 rounded-full">Cuisine</span>
+        <span class="bg-blue-900 text-white py-2 px-4 rounded-full">Mode</span>
+        <span class="bg-blue-900 text-white py-2 px-4 rounded-full">Santé</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section des articles récents -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-6">Articles Récents</h2>
+      <ul class="space-y-4">
+        <li class="bg-gray-100 p-4 rounded shadow flex justify-between items-center">
+          <span class="text-lg font-semibold">Article récent 1</span>
+          <span class="text-gray-600">20 Décembre 2024</span>
+        </li>
+        <li class="bg-gray-100 p-4 rounded shadow flex justify-between items-center">
+          <span class="text-lg font-semibold">Article récent 2</span>
+          <span class="text-gray-600">18 Décembre 2024</span>
+        </li>
+        <li class="bg-gray-100 p-4 rounded shadow flex justify-between items-center">
+          <span class="text-lg font-semibold">Article récent 3</span>
+          <span class="text-gray-600">15 Décembre 2024</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Formulaire d'abonnement à la lettre d'information -->
+  <section class="py-12 bg-gray-50">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Abonnez-vous à notre Newsletter</h2>
+      <form class="max-w-md mx-auto space-y-4">
+        <input type="email" placeholder="Votre adresse email" class="w-full p-3 border border-gray-300 rounded">
+        <button type="submit" class="bg-blue-900 text-white py-2 px-6 rounded hover:bg-blue-800">S'abonner</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white py-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <p>&copy; 2024 Mon Blog. Tous droits réservés.</p>
+      <div class="flex space-x-4">
+        <a href="#" class="hover:text-yellow-400">Facebook</a>
+        <a href="#" class="hover:text-yellow-400">Twitter</a>
+        <a href="#" class="hover:text-yellow-400">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
