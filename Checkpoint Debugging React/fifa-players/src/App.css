@@ -1,0 +1,40 @@
+/* App.css */
+.app {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.movie-card img {
+  width: 100%;
+}
+
+.add-movie input {
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.filtre input {
+  margin: 5px;
+  padding: 5px;
+}
